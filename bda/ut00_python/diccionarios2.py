@@ -1,5 +1,4 @@
-#Suponiendo un diccionario con al siguiente estructura, crea un programa que calcule 
-# cuántas categorías hay, cuántos productos tiene cada categoría y cuántos productos hay en total.
+#Suponiendo un diccionario con al siguiente estructura, crea un programa que calcule cuántas categorías hay, cuántos productos tiene cada categoría y cuántos productos hay en total.
 productos = {
     "Electrónica": ["Smartphone", "Laptop", "Tablet", "Auriculares", "Smartwatch"],
     "Hogar": ["Aspiradora", "Microondas", "Lámpara", "Sofá", "Cafetera"],

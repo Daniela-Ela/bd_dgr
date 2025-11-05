@@ -1,5 +1,4 @@
 #Escribe una función que implemente la codificación por longitud de ejecución (RLE), que consiste en comprimir una cadena representando las secuencias consecutivas de caracteres iguales con el carácter seguido de la cantidad de repeticiones.
-
 #Por ejemplo, la cadena aaron la reemplazaría por a2r1o1n1. Por simplicidad, puedes asumir que un carácter no se va a repetir más de 9 veces consecutivas. sin funcion
 cadena = input("Ingrese una cadena: ")
 if not cadena:
