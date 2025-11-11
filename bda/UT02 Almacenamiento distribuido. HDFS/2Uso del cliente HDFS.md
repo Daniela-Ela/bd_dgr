@@ -43,6 +43,11 @@ Cambia los permisos de un archivo de backuppara que solo tú tengas acceso de le
 
 ## Igualmente, miremos atrás y hagamos lo que hagamos. Es más, miremos atrás y hagamos lo mismo. Nunca seré el último en apostar por un plan B. Para mí, es la sensación. Nadie ha hecho lo mismo ...
 Elimina un archivo temporal que hayas subido por error a tu espacio en HDFS.
+![alt text](<Captura de pantalla 2025-11-06 094550.png>)
+![alt text](<Captura de pantalla 2025-11-06 094759.png>)
+![alt text](<Captura de pantalla 2025-11-06 094850.png>)
 
 ## (Opcional, avanzado)
 Configure una cuota de número de archivos en su directorio de proyecto y pruebe a superar el límite para observar el comportamiento de HDFS.
+![alt text](<Captura de pantalla 2025-11-06 104655.png>)
+![alt text](<Captura de pantalla 2025-11-06 104836.png>)

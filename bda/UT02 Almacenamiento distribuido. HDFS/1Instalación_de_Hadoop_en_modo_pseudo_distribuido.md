@@ -2,14 +2,17 @@
 
 Usaremos una máquina de **Ubuntu-server**, a la cual le pondremos dos adaptadores de red:
 - Nat
+
 ![alt text](<Captura de pantalla 2025-10-31 154724.png>)
 - Solo anfitrión
+
 ![alt text](<Captura de pantalla 2025-10-31 154450.png>)
 
 Pondremos la ip con la que enlazaremos a nuestro ordenador nativo.
 ![alt text](<Captura de pantalla 2025-10-30 111809.png>)
 
 Instalaremos el **ssh-server** en nuestra máquina.
+
 ![alt text](<Captura de pantalla 2025-10-30 111844.png>)
 
 En nuestra máquina nativa accederemos por ssh a nuestra máquina y crearemos al usuario **hadoop**.
