@@ -2,4 +2,4 @@
 
 - [Cadenas en Redis](./Cadenas%20en%20Redis/index.md)
 - [Listas en Redis](./Listas%20en%20Redis/index.md)
-- [Estructuras avanzadas en Redis](./Estructuras%20avanzadas%20en%20Redis/index.md)
+- [Estructuras avanzadas en Redis](./Estructuras%20de%20datos%20avanzadas%20en%20Redis/index.md)
