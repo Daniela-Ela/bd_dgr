@@ -2,4 +2,4 @@
 
 
 - [UT00](./ut00_python/index.md)
-- [UT02](./UT02%20Almacenamiento%20distribuido.%20HDFS/index.md)
+- [UT02](./UT02_Almacenamiento_distribuido_HDFS/index.md)
