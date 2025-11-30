@@ -1,1 +1,1 @@
-- [Datos geoespaciales](./Datos%20geoespaciales.ipynb)
+- [Datos geoespaciales](./Datos_geoespaciales.md)
