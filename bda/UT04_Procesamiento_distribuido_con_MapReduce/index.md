@@ -1,2 +1,2 @@
-- [PR0202: Uso del cliente HDFS](./MapReduce1.md)
-- [PR0203: Uso de cliente HDFS2](./MapReduce2.md)
+- [PR0401: MapReduce1 Contando palabras](./MapReduce1.md)
+- [PR0402: MapReduce2 Datos del clima](./MapReduce2.md)
