@@ -1,11 +1,4 @@
-```python
-ls /
-```
-
-    [0m[01;36mbin[0m@   [01;34mdev[0m/  [01;34mhdfs[0m/  [01;36mlib[0m@    [01;36mlib64[0m@   [01;34mmedia[0m/  [01;34mopt[0m/   [01;34mroot[0m/  [01;36msbin[0m@  [01;34msys[0m/  [01;34musr[0m/
-    [01;34mboot[0m/  [01;34metc[0m/  [01;34mhome[0m/  [01;36mlib32[0m@  [01;36mlibx32[0m@  [01;34mmnt[0m/    [01;34mproc[0m/  [01;34mrun[0m/   [01;34msrv[0m/   [30;42mtmp[0m/  [01;34mvar[0m/
-
-
+# PR0401: MapReduce (I)
 
 ```python
 !hdfs dfs -put /media/notebooks/quijote.txt /
@@ -23,6 +16,33 @@ ls /
     -rw-r--r--   3 root supergroup    2178972 2025-12-02 09:47 /quijote.txt
     drwxrwx---   - root supergroup          0 2025-12-02 09:43 /tmp
 
+
+
+### Ejercicio 1: contando palabras
+
+Tienes que implementar lo siguiente:
+
+1. **Fichero de Entrada (Input):**
+
+Un único fichero de texto (quijote.txt) que contiene la obra completa.
+2. **Fase MAP (Mapper):**
+
+El mapper debe leer el fichero línea por línea y realizar las siguientes tareas de normalización antes de emitir los pares clave-valor:
+
+- Conversión a minúsculas: todas las palabras deben ser convertidas a minúsculas para que “Caballero” y “caballero” cuenten como la misma palabra.
+- Eliminación de puntuación: se deben eliminar todos los signos de puntuación (comas, puntos, punto y coma, interrogaciones, etc.). Por ejemplo, “aventura!” debe tratarse como “aventura”.
+- División (tokenización): la línea limpia debe dividirse en palabras individuales (tokens).
+- Emisión: por cada palabra válida (token), el mapper debe emitir un par (palabra, 1).
+3. **Fase REDUCE (Reducer):**
+
+El reducer recibirá una palabra (clave) y una lista de ‘1’s (valores) asociados a esa palabra.
+
+- Agregación: debe sumar todos los valores (los ‘1’s) para obtener el conteo total de esa palabra específica.
+- Emisión: debe emitir el par final (palabra, conteo_total).
+  
+4. **Fichero de Salida (Output):**
+
+El resultado final debe ser un fichero en formato CSV donde cada línea contenga una palabra y su número total de ocurrencias.
 
 
 ```python
@@ -179,6 +199,16 @@ print(f"{current},{suma}")
 ```python
 !hdfs dfs -cat /salida1/part-00000
 ```
+
+
+### Ejercicio 2: Filtrado de palabras representativas
+En este ejercicio tienes que:
+
+- Crear una lista (o carga desde un fichero) de palabras no significativas comunes en español (ej. “de”, “la”, “el”, “y”, “en”, “que”, “a”, “los”, “del”, “se”).
+- Modificra el mapper para que no emita ningún par clave-valor si la palabra se encuentra en tu lista de palabras no significativas.
+- El resultado final será un conteo de palabras significativas, excluyendo las más comunes y menos informativas.
+NOTA: si optas por cargar la lista de palabras comunes desde un fichero, éste se deberá ubicar en el sistema de ficheros local y tendrás que referenciarlo mediante el parámetro -file (de forma análoga a como haces con mapper.py y reducer-.py) para que Hadoop lo inyecte a cada uno de los nodos en que se ejecute el mapper. Una vez hecho esto, desde dentro del código Python simplemente debes referenciarlo por su nombre.
+
 
 
 ```python
@@ -387,6 +417,15 @@ print(f"{current},{suma}")
     -rw-r--r--   3 root supergroup          0 2025-12-02 10:15 /salida2/_SUCCESS
     -rw-r--r--   3 root supergroup     280529 2025-12-02 10:15 /salida2/part-00000
 
+
+
+### Ejercicio 3: Ordenación por Frecuencia (Top-N)
+En este último ejercicio debes:
+
+- Implementar un segundo trabajo de MapReduce que tome la salida del primero.
+- Este segundo trabajo debe reordenar los datos para que la salida final esté ordenada por frecuencia de forma ascendente, mostrando las palabras más usadas primero.
+- Tienes que aprovecharte de que Hadoop se encarga de ordenar por la clave, así que en el mapper del segundo trabajo deberías invertir el par (clave, valor) para que sea (valor, clave)
+NOTA: en este ejercicio no es necesario el reducer, ya que todo el trabajo se realizará en el mapper y en el shuffle. Si quieres omitir el reducer al ejecutar Hadoop Streaming debes utilizar el parámetro -D mapreduce.job.reduces=0
 
 
 ```python
