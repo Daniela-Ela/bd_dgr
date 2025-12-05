@@ -207,6 +207,7 @@ En este ejercicio tienes que:
 - Crear una lista (o carga desde un fichero) de palabras no significativas comunes en español (ej. “de”, “la”, “el”, “y”, “en”, “que”, “a”, “los”, “del”, “se”).
 - Modificra el mapper para que no emita ningún par clave-valor si la palabra se encuentra en tu lista de palabras no significativas.
 - El resultado final será un conteo de palabras significativas, excluyendo las más comunes y menos informativas.
+
 NOTA: si optas por cargar la lista de palabras comunes desde un fichero, éste se deberá ubicar en el sistema de ficheros local y tendrás que referenciarlo mediante el parámetro -file (de forma análoga a como haces con mapper.py y reducer-.py) para que Hadoop lo inyecte a cada uno de los nodos en que se ejecute el mapper. Una vez hecho esto, desde dentro del código Python simplemente debes referenciarlo por su nombre.
 
 
@@ -425,6 +426,7 @@ En este último ejercicio debes:
 - Implementar un segundo trabajo de MapReduce que tome la salida del primero.
 - Este segundo trabajo debe reordenar los datos para que la salida final esté ordenada por frecuencia de forma ascendente, mostrando las palabras más usadas primero.
 - Tienes que aprovecharte de que Hadoop se encarga de ordenar por la clave, así que en el mapper del segundo trabajo deberías invertir el par (clave, valor) para que sea (valor, clave)
+
 NOTA: en este ejercicio no es necesario el reducer, ya que todo el trabajo se realizará en el mapper y en el shuffle. Si quieres omitir el reducer al ejecutar Hadoop Streaming debes utilizar el parámetro -D mapreduce.job.reduces=0
 
 
