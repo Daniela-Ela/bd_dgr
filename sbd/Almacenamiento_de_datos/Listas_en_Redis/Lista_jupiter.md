@@ -43,6 +43,9 @@ print("Pedidos actuales:", r.lrange("pedidos", 0, -1))
     Pedidos actuales: ['{"id": "pedido_001", "cliente": "Juan P\\u00e9rez", "producto": "Port\\u00e1til Lenovo", "cantidad": 1, "urgente": false}', '{"id": "pedido_002", "cliente": "Ana G\\u00f3mez", "producto": "Rat\\u00f3n inal\\u00e1mbrico", "cantidad": 1, "urgente": false}', '{"id": "pedido_003", "cliente": "Carlos Ruiz", "producto": "Monitor Samsung", "cantidad": 1, "urgente": false}']
 
 
+![alt text](image.png)
+
+
 Inserta 5 pedidos iniciales llamando a la función agregar_pedido.
 
 
@@ -54,6 +57,7 @@ agregar_pedido("Luis García", "Webcam Logitech")
     Pedido agregado: {'id': 'pedido_004', 'cliente': 'Marta Torres', 'producto': 'Tablet Samsung', 'cantidad': 1, 'urgente': False}
     Pedido agregado: {'id': 'pedido_005', 'cliente': 'Luis García', 'producto': 'Webcam Logitech', 'cantidad': 1, 'urgente': False}
 
+![alt text](image-1.png)
 
 Muestra todos los pedidos actuales en la cola con LRANGE.
 
@@ -76,6 +80,7 @@ agregar_pedido("Pedro López", "Impresora HP")
     Pedido agregado: {'id': 'pedido_006', 'cliente': 'Laura Díaz', 'producto': 'Teclado mecánico', 'cantidad': 1, 'urgente': False}
     Pedido agregado: {'id': 'pedido_007', 'cliente': 'Pedro López', 'producto': 'Impresora HP', 'cantidad': 1, 'urgente': False}
 
+![alt text](image-2.png)
 
 Procesa todos los pedidos de la cola llamando repetidamente a procesar_pedido() hasta que no queden más pedidos.
 
@@ -134,6 +139,7 @@ procesar_pedido()
 
     Procesando pedido: {'id': 'pedido_007', 'cliente': 'Pedro López', 'producto': 'Impresora HP', 'cantidad': 1, 'urgente': False}
 
+![alt text](image-3.png)
 
 Inserta un pedido urgente con LPUSH (puede implementarse en una versión extendida de la función agregar_pedido) y procésalo antes que el resto.
 
@@ -153,6 +159,7 @@ def agregar_pedido(cliente, producto, urgente=False):
 ```python
 agregar_pedido("Sofía Navarro", "Router TP-Link", urgente=True)
 ```
+![alt text](image-4.png)
 
 
 ```python
@@ -161,8 +168,4 @@ procesar_pedido()
 
     Procesando pedido: {'cliente': 'Sofía Navarro', 'producto': 'Router TP-Link', 'cantidad': 1, 'urgente': True}
 
-
-
-```python
-
-```
+![alt text](image-5.png) 
