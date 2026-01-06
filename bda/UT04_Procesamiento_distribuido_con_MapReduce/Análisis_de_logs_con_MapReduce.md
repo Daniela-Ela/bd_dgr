@@ -24,17 +24,17 @@ import sys
 
 for line in sys.stdin:
     parts = line.strip().split()
-    
+
     if len(parts) < 9:
         continue
 
-    status_code = parts[-2]
+    status_code = parts[8]  
 
     print(f"{status_code}\t1")
 
 ```
 
-    Writing mapperlogs1.py
+    Overwriting mapperlogs1.py
 
 
 
@@ -63,7 +63,21 @@ if current_code is not None:
 
 ```
 
-    Writing reducerlogs1.py
+    Overwriting reducerlogs1.py
+
+
+
+```python
+!cat logfiles.log | python3 mapperlogs1.py | sort | python3 reducerlogs1.py
+```
+
+    200: 142564
+    303: 142261
+    304: 143337
+    403: 143014
+    404: 142539
+    500: 142729
+    502: 143556
 
 
 ### **Tráfico Total por IP**
@@ -92,7 +106,7 @@ for line in sys.stdin:
         continue
 
     ip = parts[0]
-    bytes_sent = parts[-1]
+    bytes_sent = parts[9]
 
     if bytes_sent == "-":
         bytes_sent = 0
@@ -101,7 +115,7 @@ for line in sys.stdin:
 
 ```
 
-    Writing mapperlogs2.py
+    Overwriting mapperlogs2.py
 
 
 
@@ -130,7 +144,29 @@ if current_ip is not None:
 
 ```
 
-    Writing reducerlogs2.py
+    Overwriting reducerlogs2.py
+
+
+
+```python
+cat logfiles.log | python3 mapperlogs2.py | head | sort | python3 reducerlogs2.py
+```
+
+    119.170.1.203: 5011 bytes
+    137.196.118.126: 4960 bytes
+    160.36.208.51: 4979 bytes
+    162.253.4.179: 5041 bytes
+    182.215.249.159: 4936 bytes
+    233.223.117.90: 4963 bytes
+    238.217.83.154: 5152 bytes
+    252.156.232.172: 5028 bytes
+    255.231.52.33: 5054 bytes
+    59.107.116.6: 5008 bytes
+    Traceback (most recent call last):
+      File "/home/jovyan/MapReduce/Logs/mapperlogs2.py", line 16, in <module>
+        print(f"{ip}\t{bytes_sent}")
+    BrokenPipeError: [Errno 32] Broken pipe
+    cat: write error: Broken pipe
 
 
 ## **2. Análisis de comportamiento**
@@ -198,6 +234,18 @@ if current_url is not None:
     Writing reducerlogs3.py
 
 
+
+```python
+cat logfiles.log | python3 mapperlogs3.py | sort | python3 reducerlogs3.py
+```
+
+    /usr: 200383
+    /usr/admin: 199096
+    /usr/admin/developer: 200000
+    /usr/login: 200225
+    /usr/register: 200296
+
+
 ### **Distribución por Método HTTP**
 
 Aquí queremos saber qué tipo de acciones hacen los usuarios (GET vs POST vs DELETE).
@@ -254,6 +302,17 @@ if current_method is not None:
     Writing reducerlogs7.py
 
 
+
+```python
+cat logfiles.log | python3 mapperlogs7.py | sort | python3 reducerlogs7.py
+```
+
+    DELETE: 249768
+    GET: 250515
+    POST: 248931
+    PUT: 250786
+
+
 ### **Análisis de navegadores**
 
 El objetivo aquí es saber si los usuarios usan Chrome, Firefox, o si son bots/móviles.
@@ -272,7 +331,6 @@ import sys
 
 for line in sys.stdin:
     try:
-        # El User-Agent suele ser la última cadena entre comillas
         user_agent = line.split('"')[-2]
 
         if "Chrome" in user_agent:
@@ -289,7 +347,7 @@ for line in sys.stdin:
         continue
 ```
 
-    Overwriting mapperlogs4.py
+    Writing mapperlogs4.py
 
 
 
@@ -318,7 +376,18 @@ if current_browser is not None:
 
 ```
 
-    Overwriting reducerlogs4.py
+    Writing reducerlogs4.py
+
+
+
+```python
+cat logfiles.log | python3 mapperlogs4.py | sort | python3 reducerlogs4.py
+```
+
+    Chrome: 599509
+    Firefox: 199953
+    Mobile: 100403
+    Other: 100135
 
 
 ## **3. Análisis temporal y de sesión**
@@ -350,7 +419,7 @@ for line in sys.stdin:
         print(f"{hour}\t1")
 ```
 
-    Overwriting mapperlogs5.py
+    Writing mapperlogs5.py
 
 
 
@@ -378,7 +447,15 @@ if current_hour is not None:
     print(f"{current_hour}: {count}")
 ```
 
-    Overwriting reducerlogs5.py
+    Writing reducerlogs5.py
+
+
+
+```python
+cat logfiles.log | python3 mapperlogs5.py | sort | python3 reducerlogs5.py
+```
+
+    12: 1000000
 
 
 ### **Tasa de error por endpoint**
@@ -400,21 +477,25 @@ En este ejercicio queremos descubrir qué URLs están fallando más.
 import sys
 
 for line in sys.stdin:
-    try:
-        parts = line.strip().split()
-        url = parts[6]
-        status = int(parts[-2])
+    parts = line.strip().split()
+    if len(parts) < 9:
+        continue
 
-        if status < 400:
-            print(f"{url}\t1\t0")
-        else:
-            print(f"{url}\t0\t1")
+    url = parts[6]
+
+    try:
+        status = int(parts[8])
     except:
         continue
 
+    if status >= 400:
+        print(f"{url}\t1\t1")   # total=1, errores=1
+    else:
+        print(f"{url}\t1\t0")   # total=1, errores=0
+
 ```
 
-    Writing mapperlogs6.py
+    Overwriting mapperlogs6.py
 
 
 
@@ -423,34 +504,46 @@ for line in sys.stdin:
 #!/usr/bin/env python3
 import sys
 
-current_url = None
-ok_total = 0
-error_total = 0
+url_actual = ""
+total = 0
+errores = 0
 
 for line in sys.stdin:
-    url, ok, error = line.strip().split("\t")
-    ok = int(ok)
+    url, uno, error = line.strip().split("\t")
+
+    uno = int(uno)
     error = int(error)
 
-    if url == current_url:
-        ok_total += ok
-        error_total += error
+    if url == url_actual:
+        total = total + uno
+        errores = errores + error
     else:
-        if current_url is not None:
-            total = ok_total + error_total
-            error_rate = (error_total / total) * 100 if total > 0 else 0
-            print(f"{current_url}: {error_rate:.2f}%")
-        current_url = url
-        ok_total = ok
-        error_total = error
+        if url_actual != "":
+            porcentaje = (errores / total) * 100
+            print(url_actual + "\t" + str(porcentaje))
 
-if current_url is not None:
-    total = ok_total + error_total
-    error_rate = (error_total / total) * 100 if total > 0 else 0
-    print(f"{current_url}: {error_rate:.2f}%")
+        url_actual = url
+        total = uno
+        errores = error
+        
+if url_actual != "":
+    porcentaje = (errores / total) * 100
+    print(url_actual + "\t" + str(porcentaje))
 ```
 
-    Writing reducerlogs6.py
+    Overwriting reducerlogs6.py
+
+
+
+```python
+cat logfiles.log | python3 mapperlogs6.py | sort | python3 reducerlogs6.py
+```
+
+    /usr	57.25335981595245
+    /usr/admin	57.1920078755977
+    /usr/admin/developer	57.05050000000001
+    /usr/login	57.30902734423773
+    /usr/register	57.11397132244278
 
 
 
