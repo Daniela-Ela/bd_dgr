@@ -3,19 +3,26 @@ import os
 import sys
 
 for line in sys.stdin:
-    line = line.strip()
-     # line =  	country_code	region_name	sub_region_name	intermediate_region	country_name	income_group	year	total_gdp	total_gdp_million	gdp_variation
-    lista = line.split(";")
-    if len(lista) == 10: 
-        country_code,region_name,sub_region_name,intermediate_region,country_name,income_group,year,total_gdp,total_gdp_million,gdp_variation = lista
-        if country_code == "country_code": 
-            continue
-        else:  
-            country_code,region_name,sub_region_name,intermediate_region,country_name,income_group,year,total_gdp,total_gdp_million,gdp_variation = lista
-            year = int(year)
-            total_gdp = float(total_gdp)
-            if year >= 2000 and total_gdp > 0: 
-                print(f"{country_name}\t{year}\t{total_gdp}")
-            
-    else: 
+    partes = line.split(";")
+
+    #Validar
+    if len(partes) != 10:
         continue
+    if partes[0] == "country_code":
+        continue
+
+    country_name = partes[4]
+    year_texto = partes[6]
+    total_gdp_texto = partes[7]
+
+    #Transformar
+    try:
+        year = int(year_texto)
+        total_gdp = float(total_gdp_texto)
+    except:
+        continue
+
+    #Filtro y salida
+    if year >= 2000 and total_gdp > 0:
+        print(f"{country_name}\t{year}\t{total_gdp}")
+
