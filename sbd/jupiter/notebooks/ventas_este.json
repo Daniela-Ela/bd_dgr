@@ -1,0 +1,1602 @@
+[
+    {
+        "id_orden": "ORD-3000",
+        "timestamp": "2023-03-09 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 244
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_0",
+            "email": "cliente0@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3001",
+        "timestamp": "2023-01-20 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 578
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_1",
+            "email": "cliente1@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3002",
+        "timestamp": "2023-01-01 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 339
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_2",
+            "email": "cliente2@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3003",
+        "timestamp": "2023-02-07 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 158
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_3",
+            "email": "cliente3@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3004",
+        "timestamp": "2023-03-18 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 692
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_4",
+            "email": "cliente4@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3005",
+        "timestamp": "2023-01-06 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 29
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_5",
+            "email": "cliente5@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3006",
+        "timestamp": "2023-01-05 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 917
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_6",
+            "email": "cliente6@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3007",
+        "timestamp": "2023-01-13 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 340
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_7",
+            "email": "cliente7@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3008",
+        "timestamp": "2023-03-04 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 804
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_8",
+            "email": "cliente8@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3009",
+        "timestamp": "2023-01-09 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 939
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_9",
+            "email": "cliente9@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3010",
+        "timestamp": "2023-02-07 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 114
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_10",
+            "email": "cliente10@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3011",
+        "timestamp": "2023-02-18 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 975
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_11",
+            "email": "cliente11@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3012",
+        "timestamp": "2023-02-19 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 478
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_12",
+            "email": "cliente12@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3013",
+        "timestamp": "2023-01-09 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 566
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_13",
+            "email": "cliente13@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3014",
+        "timestamp": "2023-01-01 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 368
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_14",
+            "email": "cliente14@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3015",
+        "timestamp": "2023-03-13 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 248
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_15",
+            "email": "cliente15@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3016",
+        "timestamp": "2023-01-14 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 310
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_16",
+            "email": "cliente16@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3017",
+        "timestamp": "2023-03-26 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 870
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_17",
+            "email": "cliente17@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3018",
+        "timestamp": "2023-03-19 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 151
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_18",
+            "email": "cliente18@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3019",
+        "timestamp": "2023-03-30 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 108
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_19",
+            "email": "cliente19@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3020",
+        "timestamp": "2023-01-18 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 441
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_20",
+            "email": "cliente20@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3021",
+        "timestamp": "2023-01-23 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 164
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_21",
+            "email": "cliente21@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3022",
+        "timestamp": "2023-03-07 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 123
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_22",
+            "email": "cliente22@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3023",
+        "timestamp": "2023-02-20 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 665
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_23",
+            "email": "cliente23@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3024",
+        "timestamp": "2023-03-08 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 573
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_24",
+            "email": "cliente24@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3025",
+        "timestamp": "2023-03-05 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 642
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_25",
+            "email": "cliente25@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3026",
+        "timestamp": "2023-01-29 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 497
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_26",
+            "email": "cliente26@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3027",
+        "timestamp": "2023-01-27 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 569
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_27",
+            "email": "cliente27@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3028",
+        "timestamp": "2023-02-26 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 430
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_28",
+            "email": "cliente28@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3029",
+        "timestamp": "2023-02-24 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 215
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_29",
+            "email": "cliente29@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3030",
+        "timestamp": "2023-03-27 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 536
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_30",
+            "email": "cliente30@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3031",
+        "timestamp": "2023-03-15 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 825
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_31",
+            "email": "cliente31@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3032",
+        "timestamp": "2023-01-13 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 235
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_32",
+            "email": "cliente32@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3033",
+        "timestamp": "2023-02-21 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 280
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_33",
+            "email": "cliente33@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3034",
+        "timestamp": "2023-01-29 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 704
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_34",
+            "email": "cliente34@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3035",
+        "timestamp": "2023-01-02 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 646
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_35",
+            "email": "cliente35@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3036",
+        "timestamp": "2023-02-05 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 830
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_36",
+            "email": "cliente36@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3037",
+        "timestamp": "2023-01-27 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 30
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_37",
+            "email": "cliente37@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3038",
+        "timestamp": "2023-03-15 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 382
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_38",
+            "email": "cliente38@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3039",
+        "timestamp": "2023-01-12 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 635
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_39",
+            "email": "cliente39@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3040",
+        "timestamp": "2023-03-03 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 642
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_40",
+            "email": "cliente40@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3041",
+        "timestamp": "2023-03-01 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 375
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_41",
+            "email": "cliente41@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3042",
+        "timestamp": "2023-03-09 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 824
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_42",
+            "email": "cliente42@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3043",
+        "timestamp": "2023-03-13 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 623
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_43",
+            "email": "cliente43@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3044",
+        "timestamp": "2023-01-31 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 70
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_44",
+            "email": "cliente44@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3045",
+        "timestamp": "2023-01-29 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 798
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_45",
+            "email": "cliente45@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3046",
+        "timestamp": "2023-01-23 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 632
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_46",
+            "email": "cliente46@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3047",
+        "timestamp": "2023-01-21 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 439
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_47",
+            "email": "cliente47@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3048",
+        "timestamp": "2023-02-23 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 850
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_48",
+            "email": "cliente48@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3049",
+        "timestamp": "2023-02-23 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 930
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_49",
+            "email": "cliente49@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3050",
+        "timestamp": "2023-01-21 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 156
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_50",
+            "email": "cliente50@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3051",
+        "timestamp": "2023-03-15 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 136
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_51",
+            "email": "cliente51@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3052",
+        "timestamp": "2023-01-26 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 594
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_52",
+            "email": "cliente52@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3053",
+        "timestamp": "2023-01-25 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 825
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_53",
+            "email": "cliente53@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3054",
+        "timestamp": "2023-01-02 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 437
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_54",
+            "email": "cliente54@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3055",
+        "timestamp": "2023-01-17 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 895
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_55",
+            "email": "cliente55@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3056",
+        "timestamp": "2023-02-20 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 199
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_56",
+            "email": "cliente56@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3057",
+        "timestamp": "2023-03-11 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 180
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_57",
+            "email": "cliente57@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3058",
+        "timestamp": "2023-02-18 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 681
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_58",
+            "email": "cliente58@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3059",
+        "timestamp": "2023-01-26 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 488
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_59",
+            "email": "cliente59@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3060",
+        "timestamp": "2023-02-18 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 380
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_60",
+            "email": "cliente60@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3061",
+        "timestamp": "2023-02-18 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 361
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_61",
+            "email": "cliente61@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3062",
+        "timestamp": "2023-03-04 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 580
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_62",
+            "email": "cliente62@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3063",
+        "timestamp": "2023-03-12 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 160
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_63",
+            "email": "cliente63@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3064",
+        "timestamp": "2023-03-28 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 971
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_64",
+            "email": "cliente64@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3065",
+        "timestamp": "2023-03-24 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 448
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_65",
+            "email": "cliente65@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3066",
+        "timestamp": "2023-01-30 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 788
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_66",
+            "email": "cliente66@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3067",
+        "timestamp": "2023-03-19 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 213
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_67",
+            "email": "cliente67@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3068",
+        "timestamp": "2023-02-07 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 663
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_68",
+            "email": "cliente68@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3069",
+        "timestamp": "2023-01-01 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 890
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_69",
+            "email": "cliente69@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3070",
+        "timestamp": "2023-01-03 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 998
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_70",
+            "email": "cliente70@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3071",
+        "timestamp": "2023-02-03 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 106
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_71",
+            "email": "cliente71@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3072",
+        "timestamp": "2023-02-24 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 197
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_72",
+            "email": "cliente72@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3073",
+        "timestamp": "2023-01-07 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 852
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_73",
+            "email": "cliente73@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3074",
+        "timestamp": "2023-02-26 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 462
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_74",
+            "email": "cliente74@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3075",
+        "timestamp": "2023-03-13 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 248
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_75",
+            "email": "cliente75@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3076",
+        "timestamp": "2023-03-08 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 623
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_76",
+            "email": "cliente76@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3077",
+        "timestamp": "2023-01-08 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 115
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_77",
+            "email": "cliente77@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3078",
+        "timestamp": "2023-03-29 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 471
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_78",
+            "email": "cliente78@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3079",
+        "timestamp": "2023-02-06 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 754
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_79",
+            "email": "cliente79@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3080",
+        "timestamp": "2023-02-24 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 349
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_80",
+            "email": "cliente80@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3081",
+        "timestamp": "2023-01-07 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 104
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_81",
+            "email": "cliente81@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3082",
+        "timestamp": "2023-01-19 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 567
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_82",
+            "email": "cliente82@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3083",
+        "timestamp": "2023-01-29 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 533
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_83",
+            "email": "cliente83@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3084",
+        "timestamp": "2023-01-01 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 542
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_84",
+            "email": "cliente84@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3085",
+        "timestamp": "2023-01-02 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 138
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_85",
+            "email": "cliente85@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3086",
+        "timestamp": "2023-01-12 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 824
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_86",
+            "email": "cliente86@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3087",
+        "timestamp": "2023-02-07 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 72
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_87",
+            "email": "cliente87@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3088",
+        "timestamp": "2023-02-13 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 525
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_88",
+            "email": "cliente88@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3089",
+        "timestamp": "2023-03-27 00:00:00",
+        "detalles_producto": {
+            "nombre": "Teclado",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 612
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_89",
+            "email": "cliente89@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3090",
+        "timestamp": "2023-03-15 00:00:00",
+        "detalles_producto": {
+            "nombre": "Monitor",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 746
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_90",
+            "email": "cliente90@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3091",
+        "timestamp": "2023-03-22 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 228
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_91",
+            "email": "cliente91@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3092",
+        "timestamp": "2023-01-14 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 981
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_92",
+            "email": "cliente92@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3093",
+        "timestamp": "2023-01-25 00:00:00",
+        "detalles_producto": {
+            "nombre": "Laptop",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 297
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_93",
+            "email": "cliente93@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3094",
+        "timestamp": "2023-01-04 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 48
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_94",
+            "email": "cliente94@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3095",
+        "timestamp": "2023-03-28 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 857
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_95",
+            "email": "cliente95@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3096",
+        "timestamp": "2023-01-18 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 375
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_96",
+            "email": "cliente96@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3097",
+        "timestamp": "2023-02-10 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 696
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_97",
+            "email": "cliente97@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3098",
+        "timestamp": "2023-01-25 00:00:00",
+        "detalles_producto": {
+            "nombre": "Mouse",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 2,
+                "precio": 618
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_98",
+            "email": "cliente98@mail.com"
+        }
+    },
+    {
+        "id_orden": "ORD-3099",
+        "timestamp": "2023-03-27 00:00:00",
+        "detalles_producto": {
+            "nombre": "Webcam",
+            "categoria": "Electr\u00f3nica",
+            "specs": {
+                "cantidad": 1,
+                "precio": 844
+            }
+        },
+        "cliente": {
+            "nombre": "Cliente_99",
+            "email": "cliente99@mail.com"
+        }
+    }
+]
