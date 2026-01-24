@@ -17,12 +17,8 @@ try:
 except Exception as e:
     print("Error en la conexión")
     print(e)
+
 ```
-
-    Setting default log level to "WARN".
-    To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-    26/01/17 12:34:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-
 
     SparkSession iniciada correctamente.
 
@@ -207,9 +203,9 @@ schema = StructType([
 df_turistico = (spark.read
         .format("csv")
         .option("header","true")
-        .option("quote",";")
+        .option("sep",";")
         .schema(schema)
-        .load("./world_famous_places_2024.csv")
+        .load("./registro-de-turismo-de-castilla-y-leon.csv")
      )
 df_turistico.printSchema()
 df_turistico.show(5)
@@ -246,21 +242,29 @@ df_turistico.show(5)
     
 
 
-    26/01/17 12:34:54 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+    26/01/24 16:48:47 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+                                                                                    
 
-
-    +-------------------+-------------+----------------+----+------------------+--------------+----------------+------+-----------------+--------+---------+---------+--------------------+-------------------+----------+----------+----------+-----+----+---------+-----------+------+------------+-----------+-------------------------------------+---------+--------+
-    |    establecimiento|   n_registro|          codigo|tipo|         categoria|especialidades|           clase|nombre|        direccion|c_postal|provincia|municipio|           localidad|             nucleo|telefono_1|telefono_2|telefono_3|email| web|q_calidad|posada_real|plazas|gps_longitud|gps_latitud|accesible_a_personas_con_discapacidad|column_27|posicion|
-    +-------------------+-------------+----------------+----+------------------+--------------+----------------+------+-----------------+--------+---------+---------+--------------------+-------------------+----------+----------+----------+-----+----+---------+-----------+------+------------+-----------+-------------------------------------+---------+--------+
-    |       Eiffel Tower|       France|           Paris|   7|    Monument/Tower|            No|            1889|    35|May-June/Sept-Oct|    NULL|       95|      2.5|"Iconic iron latt...|   symbol of Paris"|      NULL|      NULL|      NULL| NULL|NULL|     NULL|       NULL|  NULL|        NULL|       NULL|                                 NULL|     NULL|    NULL|
-    |       Times Square|United States|   New York City|  50|    Urban Landmark|            No|            1904|     0|Apr-June/Sept-Nov|    NULL|       70|      1.5|      "Bright lights|     Broadway shows|      NULL|      NULL|      NULL| NULL|NULL|     NULL|       NULL|  NULL|        NULL|       NULL|                                 NULL|     NULL|    NULL|
-    |      Louvre Museum|       France|           Paris| 8.7|            Museum|           Yes|            1793|    22|        Oct-March|    NULL|      120|        4|"World's most vis...| home to Mona Lisa"|      NULL|      NULL|      NULL| NULL|NULL|     NULL|       NULL|  NULL|        NULL|       NULL|                                 NULL|     NULL|    NULL|
-    |Great Wall of China|        China|Beijing/Multiple|  10| Historic Monument|           Yes|220 BC - 1644 AD|    10| Apr-May/Sept-Oct|    NULL|      180|        4|Ancient defensive...|               NULL|      NULL|      NULL|      NULL| NULL|NULL|     NULL|       NULL|  NULL|        NULL|       NULL|                                 NULL|     NULL|    NULL|
-    |          Taj Mahal|        India|            Agra| 7.5|Monument/Mausoleum|           Yes|            1653|    15|        Oct-March|    NULL|       65|        2|"White marble mau...|    symbol of love"|      NULL|      NULL|      NULL| NULL|NULL|     NULL|       NULL|  NULL|        NULL|       NULL|                                 NULL|     NULL|    NULL|
-    +-------------------+-------------+----------------+----+------------------+--------------+----------------+------+-----------------+--------+---------+---------+--------------------+-------------------+----------+----------+----------+-----+----+---------+-----------+------+------------+-----------+-------------------------------------+---------+--------+
+    +--------------------+----------+------+--------------------+---------------+--------------+-----+--------------------+--------------------+--------+---------+---------+---------------+---------------+----------+----------+----------+--------------------+--------------------+---------+-----------+------+------------+-----------+-------------------------------------+---------+--------------------+
+    |     establecimiento|n_registro|codigo|                tipo|      categoria|especialidades|clase|              nombre|           direccion|c_postal|provincia|municipio|      localidad|         nucleo|telefono_1|telefono_2|telefono_3|               email|                 web|q_calidad|posada_real|plazas|gps_longitud|gps_latitud|accesible_a_personas_con_discapacidad|column_27|            posicion|
+    +--------------------+----------+------+--------------------+---------------+--------------+-----+--------------------+--------------------+--------+---------+---------+---------------+---------------+----------+----------+----------+--------------------+--------------------+---------+-----------+------+------------+-----------+-------------------------------------+---------+--------------------+
+    |      Turismo Activo| 47/000047|  NULL|Profesional de Tu...|           NULL|          NULL| NULL|BERNARDO MORO MEN...|Calle Rio Somiedo...|   33840| Asturias|  Somiedo|POLA DE SOMIEDO|POLA DE SOMIEDO| 616367277|      NULL|      NULL|bernardomoro@hotm...|                NULL|     NULL|       NULL|  NULL|        NULL|       NULL|                                 NULL|     NULL|                NULL|
+    |Alojam. Turismo R...| 05/000788|  NULL|Casa Rural de Alq...|    3 Estrellas|          NULL| NULL|        LA SASTRERÍA|Calle VEINTIOCHO ...|    5296|    Ávila|  Adanero|        ADANERO|        ADANERO| 920307158| 606945069| 609289521|                NULL|www.lasastreriade...|     NULL|       NULL|     6|        NULL|       NULL|                                 NULL|     NULL|                NULL|
+    |Alojam. Turismo R...| 05/000696|  NULL|Casa Rural de Alq...|    4 Estrellas|          NULL| NULL|         LAS HAZANAS|       Plaza MAYOR 4|    5296|    Ávila|  Adanero|        ADANERO|        ADANERO| 655099974|      NULL|      NULL|lashazanas@hotmai...|                NULL|     NULL|       NULL|     8|  -4.6033331| 40.9438881|                                 NULL|     NULL|40.9438881, -4.60...|
+    |Alojam. Turismo R...| 05/001050|  NULL|Casa Rural de Alq...|    4 Estrellas|          NULL| NULL| LA CASITA DEL PAJAR|   Plaza MAYOR 4   B|    5296|    Ávila|  Adanero|        ADANERO|        ADANERO| 655099974|      NULL|      NULL|lashazanas@hotmai...|                NULL|     NULL|       NULL|     2|  -4.6033333| 40.9438889|                                 NULL|     NULL|40.9438889, -4.60...|
+    |               Bares| 05/002525|  NULL|                 Bar|Categoría única|          NULL| NULL|            MARACANA|Calle 28 DE JUNIO...|    5296|    Ávila|  Adanero|        ADANERO|        ADANERO| 666389333|      NULL|      NULL|emo123anatoliev@g...|                NULL|     NULL|       NULL|    42|        NULL|       NULL|                                   Si|     NULL|                NULL|
+    +--------------------+----------+------+--------------------+---------------+--------------+-----+--------------------+--------------------+--------+---------+---------+---------------+---------------+----------+----------+----------+--------------------+--------------------+---------+-----------+------+------------+-----------+-------------------------------------+---------+--------------------+
     only showing top 5 rows
     
 
+
+    26/01/24 16:48:55 WARN GarbageCollectionMetrics: To enable non-built-in garbage collector(s) List(G1 Concurrent GC), users should configure it(them) to spark.eventLog.gcMetrics.youngGenerationGarbageCollectors or spark.eventLog.gcMetrics.oldGenerationGarbageCollectors
+
+
+
+```python
+
+```
 
 
 ```python

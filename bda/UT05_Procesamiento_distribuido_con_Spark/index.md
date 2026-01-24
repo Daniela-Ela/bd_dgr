@@ -1,1 +1,2 @@
 - [PR0501: Carga de ficheros CSV en PySpark](./Carga_de_ficheros_CSV_en_PySpark.md)
+- [PR0502: Manipulación básica de marcos de datos](./Manipulación_básica_de_marcos_de_datos.md)
