@@ -1,0 +1,4682 @@
+[
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 34
+        },
+        "data": {
+            "id_registro": "E-8000",
+            "payload": {
+                "fecha_evento": "2023-06-29 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_442",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "51213"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "G6YATHNF",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 503,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 105.63
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 45
+        },
+        "data": {
+            "id_registro": "E-8001",
+            "payload": {
+                "fecha_evento": "2023-04-12 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_205",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "14665"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "THC8MFC5",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 1122,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 235.62
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 94
+        },
+        "data": {
+            "id_registro": "E-8002",
+            "payload": {
+                "fecha_evento": "2023-04-20 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_214",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "59843"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "6IFCBHMJ",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 994,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 208.74
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 66
+        },
+        "data": {
+            "id_registro": "E-8003",
+            "payload": {
+                "fecha_evento": "2023-04-14 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_422",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "56165"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "PXC40RUN",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 1255,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 263.55
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 30
+        },
+        "data": {
+            "id_registro": "E-8004",
+            "payload": {
+                "fecha_evento": "2023-01-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_329",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "78884"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "3JI7HLD5",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 1458,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 306.18
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 26
+        },
+        "data": {
+            "id_registro": "E-8005",
+            "payload": {
+                "fecha_evento": "2023-02-24 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_589",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "25474"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "XSVJ1EAR",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 475,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 99.75
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 93
+        },
+        "data": {
+            "id_registro": "E-8006",
+            "payload": {
+                "fecha_evento": "2023-05-14 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_734",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "36105"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "SIY756OH",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 498,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 104.58
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 33
+        },
+        "data": {
+            "id_registro": "E-8007",
+            "payload": {
+                "fecha_evento": "2023-02-22 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_938",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "66678"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "MVZBDEOP",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 1255,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 263.55
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 80
+        },
+        "data": {
+            "id_registro": "E-8008",
+            "payload": {
+                "fecha_evento": "2023-03-27 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_405",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "88803"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "2HY9AP7K",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 668,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 140.28
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 70
+        },
+        "data": {
+            "id_registro": "E-8009",
+            "payload": {
+                "fecha_evento": "2023-03-22 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_685",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "89108"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "9ZD41NDJ",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 933,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 195.93
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 57
+        },
+        "data": {
+            "id_registro": "E-8010",
+            "payload": {
+                "fecha_evento": "2023-05-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_329",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "19944"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "10BVCREK",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 901,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 189.21
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 86
+        },
+        "data": {
+            "id_registro": "E-8011",
+            "payload": {
+                "fecha_evento": "2023-03-15 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_226",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "43903"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "LQSWQFLE",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 122,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 25.62
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 45
+        },
+        "data": {
+            "id_registro": "E-8012",
+            "payload": {
+                "fecha_evento": "2023-01-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_703",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "91578"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "VCU2UM2O",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 459,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 96.39
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 32
+        },
+        "data": {
+            "id_registro": "E-8013",
+            "payload": {
+                "fecha_evento": "2023-04-29 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_324",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "89805"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "DQDH71KE",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 500,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 105.0
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 72
+        },
+        "data": {
+            "id_registro": "E-8014",
+            "payload": {
+                "fecha_evento": "2023-05-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_687",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "89427"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "GTXDEA4K",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 1390,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 291.9
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 90
+        },
+        "data": {
+            "id_registro": "E-8015",
+            "payload": {
+                "fecha_evento": "2023-02-24 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_629",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "85348"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "P8RWHEZZ",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 976,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 204.96
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 76
+        },
+        "data": {
+            "id_registro": "E-8016",
+            "payload": {
+                "fecha_evento": "2023-04-05 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_291",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "50178"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "VZ8VU04T",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 543,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 114.03
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 94
+        },
+        "data": {
+            "id_registro": "E-8017",
+            "payload": {
+                "fecha_evento": "2023-05-08 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_207",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "55051"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "VFPCLYKN",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 933,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 195.93
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 32
+        },
+        "data": {
+            "id_registro": "E-8018",
+            "payload": {
+                "fecha_evento": "2023-03-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_523",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "57375"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "0KYMHFGD",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 829,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 174.09
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 31
+        },
+        "data": {
+            "id_registro": "E-8019",
+            "payload": {
+                "fecha_evento": "2023-04-10 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_765",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "77382"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "TNX7J79M",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 1021,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 214.41
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 98
+        },
+        "data": {
+            "id_registro": "E-8020",
+            "payload": {
+                "fecha_evento": "2023-05-16 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_497",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "12645"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "7NLIEXK7",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 68,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 14.28
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 31
+        },
+        "data": {
+            "id_registro": "E-8021",
+            "payload": {
+                "fecha_evento": "2023-06-19 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_670",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "24863"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "Y9E8X18T",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 367,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 77.07
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 21
+        },
+        "data": {
+            "id_registro": "E-8022",
+            "payload": {
+                "fecha_evento": "2023-04-19 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_455",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "17179"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "OTJPN4M6",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 214,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 44.94
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 75
+        },
+        "data": {
+            "id_registro": "E-8023",
+            "payload": {
+                "fecha_evento": "2023-05-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_874",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "97204"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "RK29E3CM",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 1146,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 240.66
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 75
+        },
+        "data": {
+            "id_registro": "E-8024",
+            "payload": {
+                "fecha_evento": "2023-04-06 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_246",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "96605"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "1TBAH0AH",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 421,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 88.41
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 70
+        },
+        "data": {
+            "id_registro": "E-8025",
+            "payload": {
+                "fecha_evento": "2023-02-01 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_217",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "53311"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "HBH9P587",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 860,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 180.6
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 34
+        },
+        "data": {
+            "id_registro": "E-8026",
+            "payload": {
+                "fecha_evento": "2023-03-29 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_489",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "11734"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "A33KWYU4",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 772,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 162.12
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 41
+        },
+        "data": {
+            "id_registro": "E-8027",
+            "payload": {
+                "fecha_evento": "2023-05-30 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_131",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "77573"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "UZF72UN4",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 1144,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 240.24
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 50
+        },
+        "data": {
+            "id_registro": "E-8028",
+            "payload": {
+                "fecha_evento": "2023-04-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_723",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "52532"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "GJ4OO98K",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 1077,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 226.17
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 63
+        },
+        "data": {
+            "id_registro": "E-8029",
+            "payload": {
+                "fecha_evento": "2023-04-06 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_569",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "29371"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "1BJGY84F",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 96,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 20.16
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 97
+        },
+        "data": {
+            "id_registro": "E-8030",
+            "payload": {
+                "fecha_evento": "2023-02-13 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_920",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "98893"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "LMFJ2ATQ",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 1469,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 308.49
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 90
+        },
+        "data": {
+            "id_registro": "E-8031",
+            "payload": {
+                "fecha_evento": "2023-06-26 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_705",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "79679"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "0GUYBOYF",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 343,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 72.03
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 44
+        },
+        "data": {
+            "id_registro": "E-8032",
+            "payload": {
+                "fecha_evento": "2023-01-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_896",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "82505"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "EY91TLHC",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 909,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 190.89
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 40
+        },
+        "data": {
+            "id_registro": "E-8033",
+            "payload": {
+                "fecha_evento": "2023-01-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_411",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "84747"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "2N8Z8ICC",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 788,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 165.48
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 95
+        },
+        "data": {
+            "id_registro": "E-8034",
+            "payload": {
+                "fecha_evento": "2023-06-22 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_390",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "42700"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "N0JMAGUW",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 933,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 195.93
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 52
+        },
+        "data": {
+            "id_registro": "E-8035",
+            "payload": {
+                "fecha_evento": "2023-02-09 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_305",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "49811"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "0G7RN489",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 553,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 116.13
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 68
+        },
+        "data": {
+            "id_registro": "E-8036",
+            "payload": {
+                "fecha_evento": "2023-05-29 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_255",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "25445"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "YRVTW2R8",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 244,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 51.24
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 29
+        },
+        "data": {
+            "id_registro": "E-8037",
+            "payload": {
+                "fecha_evento": "2023-03-26 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_769",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "39197"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "MAP830E2",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 1368,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 287.28
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 42
+        },
+        "data": {
+            "id_registro": "E-8038",
+            "payload": {
+                "fecha_evento": "2023-02-19 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_366",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "46193"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "EVG81JM9",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 708,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 148.68
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 33
+        },
+        "data": {
+            "id_registro": "E-8039",
+            "payload": {
+                "fecha_evento": "2023-06-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_160",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "15723"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "G79H1GJM",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 1369,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 287.49
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 77
+        },
+        "data": {
+            "id_registro": "E-8040",
+            "payload": {
+                "fecha_evento": "2023-06-10 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_744",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "37454"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "IAQG837H",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 1274,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 267.54
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 90
+        },
+        "data": {
+            "id_registro": "E-8041",
+            "payload": {
+                "fecha_evento": "2023-03-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_841",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "71840"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "MZQX2RRQ",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 741,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 155.61
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 79
+        },
+        "data": {
+            "id_registro": "E-8042",
+            "payload": {
+                "fecha_evento": "2023-04-19 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_634",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "98473"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "DD78Z7Y7",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 1037,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 217.77
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 65
+        },
+        "data": {
+            "id_registro": "E-8043",
+            "payload": {
+                "fecha_evento": "2023-02-23 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_671",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "82764"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "MVY8767J",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 270,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 56.7
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 51
+        },
+        "data": {
+            "id_registro": "E-8044",
+            "payload": {
+                "fecha_evento": "2023-05-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_170",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "33379"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "X48CYCCH",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 749,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 157.29
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 58
+        },
+        "data": {
+            "id_registro": "E-8045",
+            "payload": {
+                "fecha_evento": "2023-01-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_102",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "54448"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "94BEJUGX",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 144,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 30.24
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 53
+        },
+        "data": {
+            "id_registro": "E-8046",
+            "payload": {
+                "fecha_evento": "2023-01-04 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_851",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "53374"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "NR2GZ2YX",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 1381,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 290.01
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 61
+        },
+        "data": {
+            "id_registro": "E-8047",
+            "payload": {
+                "fecha_evento": "2023-05-19 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_730",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "40776"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "9QCKMJLI",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 570,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 119.7
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 28
+        },
+        "data": {
+            "id_registro": "E-8048",
+            "payload": {
+                "fecha_evento": "2023-01-24 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_665",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "68875"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "73DUAVGR",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 382,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 80.22
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 42
+        },
+        "data": {
+            "id_registro": "E-8049",
+            "payload": {
+                "fecha_evento": "2023-03-04 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_485",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "12623"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "45I73QO5",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 1174,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 246.54
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 32
+        },
+        "data": {
+            "id_registro": "E-8050",
+            "payload": {
+                "fecha_evento": "2023-06-01 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_267",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "21048"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "5KBHMQ0D",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 346,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 72.66
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 43
+        },
+        "data": {
+            "id_registro": "E-8051",
+            "payload": {
+                "fecha_evento": "2023-01-06 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_225",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "64265"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "9J4ADADC",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 381,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 80.01
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 69
+        },
+        "data": {
+            "id_registro": "E-8052",
+            "payload": {
+                "fecha_evento": "2023-04-11 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_553",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "42578"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "232GNBGH",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 1118,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 234.78
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 54
+        },
+        "data": {
+            "id_registro": "E-8053",
+            "payload": {
+                "fecha_evento": "2023-02-16 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_273",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "67120"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "MYXLBHHS",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 1394,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 292.74
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 53
+        },
+        "data": {
+            "id_registro": "E-8054",
+            "payload": {
+                "fecha_evento": "2023-03-01 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_539",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "46811"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "WD4OHBRE",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 841,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 176.61
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 42
+        },
+        "data": {
+            "id_registro": "E-8055",
+            "payload": {
+                "fecha_evento": "2023-05-01 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_439",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "22536"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "GPC64CI3",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 247,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 51.87
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 28
+        },
+        "data": {
+            "id_registro": "E-8056",
+            "payload": {
+                "fecha_evento": "2023-02-26 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_193",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "95010"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "PVW08SE1",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 1389,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 291.69
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 36
+        },
+        "data": {
+            "id_registro": "E-8057",
+            "payload": {
+                "fecha_evento": "2023-05-19 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_998",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "17586"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "7112VDE5",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 327,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 68.67
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 98
+        },
+        "data": {
+            "id_registro": "E-8058",
+            "payload": {
+                "fecha_evento": "2023-02-05 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_740",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "42923"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "I5EV1KAN",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 1149,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 241.29
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 25
+        },
+        "data": {
+            "id_registro": "E-8059",
+            "payload": {
+                "fecha_evento": "2023-05-16 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_277",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "62642"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "CHSJEF2M",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 526,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 110.46
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 96
+        },
+        "data": {
+            "id_registro": "E-8060",
+            "payload": {
+                "fecha_evento": "2023-05-19 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_306",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "94520"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "NIYKWV0R",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 1345,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 282.45
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 95
+        },
+        "data": {
+            "id_registro": "E-8061",
+            "payload": {
+                "fecha_evento": "2023-06-01 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_433",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "70764"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "XQ5G7KBQ",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 1309,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 274.89
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 27
+        },
+        "data": {
+            "id_registro": "E-8062",
+            "payload": {
+                "fecha_evento": "2023-04-07 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_486",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "43645"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "1NETUF14",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 909,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 190.89
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 72
+        },
+        "data": {
+            "id_registro": "E-8063",
+            "payload": {
+                "fecha_evento": "2023-06-05 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_864",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "84087"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "H32DD5KS",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 1417,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 297.57
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 70
+        },
+        "data": {
+            "id_registro": "E-8064",
+            "payload": {
+                "fecha_evento": "2023-06-20 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_986",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "75196"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "09WQ4VIL",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 1061,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 222.81
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 93
+        },
+        "data": {
+            "id_registro": "E-8065",
+            "payload": {
+                "fecha_evento": "2023-06-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_530",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28794"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "20Z6HIRB",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 201,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 42.21
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 41
+        },
+        "data": {
+            "id_registro": "E-8066",
+            "payload": {
+                "fecha_evento": "2023-05-27 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_614",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "34472"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "46ZGVDGP",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 242,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 50.82
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 63
+        },
+        "data": {
+            "id_registro": "E-8067",
+            "payload": {
+                "fecha_evento": "2023-05-04 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_304",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "28237"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "PKD632F3",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 1294,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 271.74
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 60
+        },
+        "data": {
+            "id_registro": "E-8068",
+            "payload": {
+                "fecha_evento": "2023-04-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_496",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "72326"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "IKHU0V6V",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 675,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 141.75
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 88
+        },
+        "data": {
+            "id_registro": "E-8069",
+            "payload": {
+                "fecha_evento": "2023-05-07 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_635",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "17692"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "0FQJNNCS",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 793,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 166.53
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 21
+        },
+        "data": {
+            "id_registro": "E-8070",
+            "payload": {
+                "fecha_evento": "2023-05-07 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_612",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "18930"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "YAYPCHDV",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 896,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 188.16
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 56
+        },
+        "data": {
+            "id_registro": "E-8071",
+            "payload": {
+                "fecha_evento": "2023-05-18 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_506",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "24217"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "GCTNFIN4",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 266,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 55.86
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 84
+        },
+        "data": {
+            "id_registro": "E-8072",
+            "payload": {
+                "fecha_evento": "2023-03-28 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_266",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "65460"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "VUR1OO30",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 1344,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 282.24
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 50
+        },
+        "data": {
+            "id_registro": "E-8073",
+            "payload": {
+                "fecha_evento": "2023-01-04 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_601",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "46810"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "LJERQWO2",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 101,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 21.21
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 39
+        },
+        "data": {
+            "id_registro": "E-8074",
+            "payload": {
+                "fecha_evento": "2023-03-25 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_352",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "39369"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "38SS6L3Q",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 131,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 27.51
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 85
+        },
+        "data": {
+            "id_registro": "E-8075",
+            "payload": {
+                "fecha_evento": "2023-04-01 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_764",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "74299"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "FKWLGJRU",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 876,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 183.96
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 64
+        },
+        "data": {
+            "id_registro": "E-8076",
+            "payload": {
+                "fecha_evento": "2023-05-01 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_203",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "37902"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "VDTHZRES",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 1443,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 303.03
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 36
+        },
+        "data": {
+            "id_registro": "E-8077",
+            "payload": {
+                "fecha_evento": "2023-06-14 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_126",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "94212"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "698CTO3J",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 879,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 184.59
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 40
+        },
+        "data": {
+            "id_registro": "E-8078",
+            "payload": {
+                "fecha_evento": "2023-05-31 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_401",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "67756"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "AKQHP4LS",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 73,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 15.33
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 63
+        },
+        "data": {
+            "id_registro": "E-8079",
+            "payload": {
+                "fecha_evento": "2023-04-04 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_426",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "52275"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "I3LAYPAS",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 1320,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 277.2
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 36
+        },
+        "data": {
+            "id_registro": "E-8080",
+            "payload": {
+                "fecha_evento": "2023-03-07 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_392",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "52694"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "51CUF613",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 243,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 51.03
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 95
+        },
+        "data": {
+            "id_registro": "E-8081",
+            "payload": {
+                "fecha_evento": "2023-01-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_118",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "97588"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "L75FCXKT",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 1302,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 273.42
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 56
+        },
+        "data": {
+            "id_registro": "E-8082",
+            "payload": {
+                "fecha_evento": "2023-03-21 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_138",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "47418"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "KD5I03ND",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 904,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 189.84
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 67
+        },
+        "data": {
+            "id_registro": "E-8083",
+            "payload": {
+                "fecha_evento": "2023-04-14 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_795",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "16866"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "H3VRGXTJ",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 1048,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 220.08
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 73
+        },
+        "data": {
+            "id_registro": "E-8084",
+            "payload": {
+                "fecha_evento": "2023-05-22 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_685",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "65921"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "VFB5MQHV",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 881,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 185.01
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 30
+        },
+        "data": {
+            "id_registro": "E-8085",
+            "payload": {
+                "fecha_evento": "2023-02-09 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_753",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "82512"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "GRM3QE8B",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 114,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 23.94
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 39
+        },
+        "data": {
+            "id_registro": "E-8086",
+            "payload": {
+                "fecha_evento": "2023-01-26 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_486",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "47593"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "K06UC2UU",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 157,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 32.97
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 83
+        },
+        "data": {
+            "id_registro": "E-8087",
+            "payload": {
+                "fecha_evento": "2023-04-29 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_541",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "22793"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "Z8HV0ABP",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 889,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 186.69
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 49
+        },
+        "data": {
+            "id_registro": "E-8088",
+            "payload": {
+                "fecha_evento": "2023-03-17 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_159",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "56566"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "GIP0U6I3",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 1350,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 283.5
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 48
+        },
+        "data": {
+            "id_registro": "E-8089",
+            "payload": {
+                "fecha_evento": "2023-04-26 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_861",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "60511"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "0CYB4OIU",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 197,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 41.37
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 63
+        },
+        "data": {
+            "id_registro": "E-8090",
+            "payload": {
+                "fecha_evento": "2023-02-18 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_735",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "41306"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "M5OJHLQ3",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 1227,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 257.67
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 65
+        },
+        "data": {
+            "id_registro": "E-8091",
+            "payload": {
+                "fecha_evento": "2023-02-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_885",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "56123"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "VHRXFH0U",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 1317,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 276.57
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 34
+        },
+        "data": {
+            "id_registro": "E-8092",
+            "payload": {
+                "fecha_evento": "2023-03-27 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_595",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "85694"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "K4MJKKKP",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 1005,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 211.05
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 84
+        },
+        "data": {
+            "id_registro": "E-8093",
+            "payload": {
+                "fecha_evento": "2023-05-05 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_826",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "75952"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "OO9VIART",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 1493,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 313.53
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 92
+        },
+        "data": {
+            "id_registro": "E-8094",
+            "payload": {
+                "fecha_evento": "2023-03-15 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_845",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "80563"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "CRILYZL3",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 672,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 141.12
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 56
+        },
+        "data": {
+            "id_registro": "E-8095",
+            "payload": {
+                "fecha_evento": "2023-02-12 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_239",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "12558"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "Q5HGWFT7",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 482,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 101.22
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 90
+        },
+        "data": {
+            "id_registro": "E-8096",
+            "payload": {
+                "fecha_evento": "2023-02-25 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_924",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "47419"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "FG18NJCT",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 145,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 30.45
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 72
+        },
+        "data": {
+            "id_registro": "E-8097",
+            "payload": {
+                "fecha_evento": "2023-02-16 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_391",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "59582"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "LN5DODWR",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 271,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 56.91
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 65
+        },
+        "data": {
+            "id_registro": "E-8098",
+            "payload": {
+                "fecha_evento": "2023-03-24 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_951",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "43748"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "G7QCGRLV",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 836,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 175.56
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 53
+        },
+        "data": {
+            "id_registro": "E-8099",
+            "payload": {
+                "fecha_evento": "2023-05-06 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_649",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "98273"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "REEXF4K2",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 827,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 173.67
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 99
+        },
+        "data": {
+            "id_registro": "E-8100",
+            "payload": {
+                "fecha_evento": "2023-03-22 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_775",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "14273"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "EVLACAP3",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 975,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 204.75
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 97
+        },
+        "data": {
+            "id_registro": "E-8101",
+            "payload": {
+                "fecha_evento": "2023-02-06 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_950",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "54617"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "EWPEQ4Y2",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 410,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 86.1
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 72
+        },
+        "data": {
+            "id_registro": "E-8102",
+            "payload": {
+                "fecha_evento": "2023-03-13 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_272",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "73520"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "9BGOCH6X",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 1195,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 250.95
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 81
+        },
+        "data": {
+            "id_registro": "E-8103",
+            "payload": {
+                "fecha_evento": "2023-05-04 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_939",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "90597"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "SZC8EWYA",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 1104,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 231.84
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 91
+        },
+        "data": {
+            "id_registro": "E-8104",
+            "payload": {
+                "fecha_evento": "2023-03-12 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_269",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "15955"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "GDBJGC12",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 752,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 157.92
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 91
+        },
+        "data": {
+            "id_registro": "E-8105",
+            "payload": {
+                "fecha_evento": "2023-05-16 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_930",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "57136"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "9MLGIZ2C",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 1085,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 227.85
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 75
+        },
+        "data": {
+            "id_registro": "E-8106",
+            "payload": {
+                "fecha_evento": "2023-02-01 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_847",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "21229"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "LVABNK1C",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 763,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 160.23
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 83
+        },
+        "data": {
+            "id_registro": "E-8107",
+            "payload": {
+                "fecha_evento": "2023-06-08 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_488",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "89537"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "Z8YHK0SA",
+                        "nombre_comercial": "Docking Station",
+                        "precio_lista": 1155,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 242.55
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 81
+        },
+        "data": {
+            "id_registro": "E-8108",
+            "payload": {
+                "fecha_evento": "2023-03-12 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_536",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "22819"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "ZAU6TOGE",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 980,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 205.8
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 95
+        },
+        "data": {
+            "id_registro": "E-8109",
+            "payload": {
+                "fecha_evento": "2023-01-04 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_312",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "55311"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "SYIOAK0Y",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 581,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 122.01
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 69
+        },
+        "data": {
+            "id_registro": "E-8110",
+            "payload": {
+                "fecha_evento": "2023-03-13 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_873",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "47075"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "RS8A22H4",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 582,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 122.22
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 24
+        },
+        "data": {
+            "id_registro": "E-8111",
+            "payload": {
+                "fecha_evento": "2023-01-26 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_371",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "38562"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "BLL1HOQB",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 465,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 97.65
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 55
+        },
+        "data": {
+            "id_registro": "E-8112",
+            "payload": {
+                "fecha_evento": "2023-06-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_410",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "62321"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "8ZGMXNP3",
+                        "nombre_comercial": "Teclado Mec\u00e1nico",
+                        "precio_lista": 209,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 43.89
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 47
+        },
+        "data": {
+            "id_registro": "E-8113",
+            "payload": {
+                "fecha_evento": "2023-06-22 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_931",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "90520"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "YR255DIJ",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 189,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 39.69
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 59
+        },
+        "data": {
+            "id_registro": "E-8114",
+            "payload": {
+                "fecha_evento": "2023-06-28 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_229",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "61710"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "O0C4TFI0",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 51,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 10.71
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Bizum",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 60
+        },
+        "data": {
+            "id_registro": "E-8115",
+            "payload": {
+                "fecha_evento": "2023-04-05 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_769",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "31391"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "HNQDGL0Q",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 829,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 174.09
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 21
+        },
+        "data": {
+            "id_registro": "E-8116",
+            "payload": {
+                "fecha_evento": "2023-04-23 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_443",
+                        "tipo_suscripcion": "Gold"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "19586"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "4PNJTECY",
+                        "nombre_comercial": "Laptop Gamer",
+                        "precio_lista": 858,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 180.18
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "PayPal",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 38
+        },
+        "data": {
+            "id_registro": "E-8117",
+            "payload": {
+                "fecha_evento": "2023-06-03 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_172",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "70707"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "W1M7CCSI",
+                        "nombre_comercial": "Webcam HD",
+                        "precio_lista": 637,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 133.77
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Tarjeta Cr\u00e9dito",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 46
+        },
+        "data": {
+            "id_registro": "E-8118",
+            "payload": {
+                "fecha_evento": "2023-02-24 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_332",
+                        "tipo_suscripcion": "Premium"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Valencia",
+                        "codigo_postal": "40898"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "VXFXQUKX",
+                        "nombre_comercial": "Monitor 4K",
+                        "precio_lista": 502,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 105.42
+                        }
+                    },
+                    "cantidad_comprada": 2,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "lujo",
+                        "envio_gratis"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "metadata": {
+            "source_system": "API_v2",
+            "latency_ms": 40
+        },
+        "data": {
+            "id_registro": "E-8119",
+            "payload": {
+                "fecha_evento": "2023-01-08 00:00:00",
+                "comprador": {
+                    "perfil": {
+                        "id_usuario": "USR_176",
+                        "tipo_suscripcion": "Free"
+                    },
+                    "ubicacion": {
+                        "ciudad": "Madrid",
+                        "codigo_postal": "80962"
+                    }
+                },
+                "transaccion": {
+                    "detalles_producto": {
+                        "sku": "3HPQ0U08",
+                        "nombre_comercial": "Mouse Ergon\u00f3mico",
+                        "precio_lista": 306,
+                        "impuestos": {
+                            "iva_percent": 21,
+                            "monto_iva": 64.26
+                        }
+                    },
+                    "cantidad_comprada": 1,
+                    "metodo_pago": "Transferencia",
+                    "tags": [
+                        "oferta",
+                        "digital"
+                    ]
+                }
+            }
+        }
+    }
+]
