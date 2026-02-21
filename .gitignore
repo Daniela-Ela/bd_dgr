@@ -1,0 +1,27 @@
+# Ignorar todo
+*
+
+# Permitir carpetas
+!*/
+
+# Permitir markdown
+!*.md
+
+# Permitir imágenes
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.webp
+
+# Permitir docker / compose
+!docker-compose.yml
+!docker-compose.yaml
+!compose.yml
+!compose.yaml
+!Dockerfile
+
+# Permitir archivos de configuración importantes
+!.gitignore
+!.gitattributes
