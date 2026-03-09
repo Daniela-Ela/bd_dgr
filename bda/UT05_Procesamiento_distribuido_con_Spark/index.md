@@ -4,4 +4,4 @@
 - [PR0504: Limpieza de datos sobre dataset de lugares famosos](./Limpieza_de_datos_sobre_dataset_de_lugares_famosos.md)
 - [PR0505: Análisis de estadísticas en dataset](./Analisis_de_estadisticas_en_dataset.md)
 - [PR0506: Análisis de comportamiento de usuarios en Netflix](./Analisis_de_comportamiento_de_usuarios_en_Netflix.md)
-- [PR0507: Manipulación básica de marcos de datos](./Manipulacion_basica_de_marcos_de_datos.md)
+- [PR0507: Motor de recomendación gastronómico](./Motor_de_recomendacion_gastronomico.md)
