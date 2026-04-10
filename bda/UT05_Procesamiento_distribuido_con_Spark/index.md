@@ -1,7 +1,1 @@
-- [PR0501: Carga de ficheros CSV en PySpark](./Carga_de_ficheros_CSV_en_PySpark.md)
-- [PR0502: Manipulación básica de marcos de datos](./Manipulación_básica_de_marcos_de_datos.md)
-- [PR0503: Limpieza de datos sobre dataset de cultivos](./Limpieza_de_datos_sobre_dataset_de_cultivos.md)
-- [PR0504: Limpieza de datos sobre dataset de lugares famosos](./Limpieza_de_datos_sobre_dataset_de_lugares_famosos.md)
-- [PR0505: Análisis de estadísticas en dataset](./Analisis_de_estadisticas_en_dataset.md)
-- [PR0506: Análisis de comportamiento de usuarios en Netflix](./Analisis_de_comportamiento_de_usuarios_en_Netflix.md)
-- [PR0507: Motor de recomendación gastronómico](./Motor_de_recomendacion_gastronomico.md)
+- [PR0601: Capa bronce en Amazon AWS](./Capa_bronce_en_amazon_aws.md)
